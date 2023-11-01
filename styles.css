@@ -1,33 +1,38 @@
-/*  your css code here. If applicable */
-.container{
-	width:200px;
-	height:50px;
-	border:2px solid black;
-	border-radius:15px;
-	background-color:lightgray;
-	padding:10px;
-	margin:auto;
-}
-.box-1{
-	width:50px;
-	height:50px;
-	background-color:green;
-	border-radius:50%;
-}
-.box-2{
-	width:50px;
-	height:50px;
-	background-color:yellow;
-	border-radius:50%;
-}
-.boxes{
-	display:flex;
-	justify-content:space-evenly;
+.parent{
+	width:500px;
+	height:200px;
+	padding:20px;
+	margin:10px;
 	align-items:center;
+	justify-content:center;
+	background-color:lightgray;
+	border:5px solid black;
+	border-radius:30px;
 }
-.box-3{
+.green{
 	width:50px;
-	height:50px;
+	height:110px;
+	padding:20px;
+	margin:10px;
+	background-color:green;
+	border:5px;
+	border-radius:50%;
+}
+.yellow{
+	width:50px;
+	height:110px;
+	padding:20px;
+	margin:10px;
+	background-color:yellow;
+	border:5px;
+	border-radius:50%;
+}
+.red{
+	width:50px;
+	height:110px;
+	padding:20px;
+	margin:10px;
 	background-color:red;
+	border:5px;
 	border-radius:50%;
 }
